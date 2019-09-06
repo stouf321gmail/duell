@@ -1,0 +1,100 @@
+.operator-box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 40%;
+    margin: 1% auto;
+    margin-bottom: 0%;
+    background-color: #fff;
+    box-shadow: 2px 3px 40px 0px rgba(10, 63, 108, 0.4);
+    /* padding-top: 1%; */
+    border-radius: 25px;
+}
+
+#win-form {
+    margin-top: 7%;
+}
+
+.form-container p {
+    width: 90%;
+    margin: 5% auto;
+}
+
+.operator-box h4 {
+    padding: 1%;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    color: #0a406d;
+}
+
+#operator-valid {
+    display: none;
+    color: red;
+    width: 100%;
+    margin: 0.2em auto;
+    text-align: center;
+    text-align: center;
+}
+
+.inner-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1%;
+}
+
+/* #selected {
+    display: none;
+    padding: 0%;
+} */
+
+#radio-1,
+#radio-2 {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    user-select: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 20%;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    animation-duration: 1.5s !important;
+}
+
+@keyframes blink-animation {
+    0% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    0% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+.comente{
+	border-radius: 2px;
+	
+}

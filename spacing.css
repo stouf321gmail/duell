@@ -1,0 +1,180 @@
+html{background-image: url('https://ad.duelapp.com/duel_uae_etisalat/winsimpleEtv1b/assets/winsimplev1b_%20Gaming-related%20background%20(alternative%20edition)_des.jpg');}
+
+.main-section h1 {
+	/*  changed style */
+	margin-top: 0em !important;
+}
+
+.form-container {
+	/* changed style */
+	margin: 0.3em auto !important;
+}
+
+@media only screen and (min-width: 1200px) {
+	.operator-box {
+		margin-top: 0.2em !important;
+	}
+
+	.main-section h1 {
+		margin-bottom: 0.2em !important;
+	}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 374px) {
+	.main-section p {
+		text-align: center;
+		width: 82% !important;
+		line-height: 12pt !important;
+	}
+
+	.main-section h1 {
+		font-size: 150% !important;
+	}
+}
+
+@media only screen and (min-width: 1365px) {
+	.img-container-1 img {
+		object-fit: contain;
+		width: 110%;
+	}
+
+	.img-container-1 {
+		margin-left: 0 !important;
+	}
+
+	.img-container-2 img {
+		object-fit: contain;
+		width: 110%;
+	}
+
+	.operator-box {
+		margin-top: 0.2em !important;
+	}
+
+	.main-section h1 {
+		margin-bottom: 0.2em !important;
+		margin-top: 1.75em !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.operator-box {
+		margin: 1.55em auto !important;
+		margin-top: -0.75em !important;
+		padding: 2%;
+		width: 83% !important;
+	}
+
+	.main-section h1 {
+		letter-spacing: 1pt;
+		padding: 2.5% !important;
+		margin-top: 1%;
+		margin-bottom: 0% !important;
+		font-size: 170%;
+	}
+
+	#win-form {
+		margin-top: 7%;
+	}
+
+	#win-form input,
+	#win-form button {
+		margin-top: 5%;
+	}
+}
+
+@media only screen and (min-width: 441px) and (max-width: 768px) {
+	.operator-box {
+		width: 43% !important;
+	}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 450px) {
+	.main-section h1 {
+		font-size: 25px;
+	}
+
+	.main-section .operator-box {
+		margin-top: -0.5rem;
+	}
+
+	.main-section .header {
+		padding: 0.3rem;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.img-container-2 img {
+		display: none !important;
+	}
+
+	.operator-box {
+		margin-top: 55%;
+	}
+
+	.desktop-only {
+		display: none;
+	}
+
+	.img-container-1 {
+		/* padding: 0.5rem; */
+		padding-bottom: 0.1rem;
+		padding-top: -10%;
+	}
+
+	.img-container-1 img {
+		object-fit: contain;
+		width: 80%;
+		animation-name: none;
+		animation-duration: 14s;
+		animation-fill-mode: forwards;
+		animation-delay: 500ms;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.operator-box {
+		width: 55% !important;
+	}
+
+	.img-container-1 {
+		width: 30rem !important;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+	.mobile-only {
+		display: none;
+	}
+
+	.disclaimer-box p {
+		width: 55% !important;
+	}
+
+	.disclaimer-box {
+		width: 55%;
+	}
+
+	#disclaimer-du,
+	#disclaimer-etisalat {
+		width: 55%;
+	}
+}
+
+@media only screen and (max-width: 380px) and (min-height: 812px) {
+	.main-section .header {
+		padding: 1rem;
+	}
+
+	.main-section h1 {
+		margin-top: 2rem !important;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+}
+#disclaimer-du,
+#disclaimer-etisalat {
+	margin-top: 5%;
+}

@@ -1,0 +1,37 @@
+// $(document).ready(function () {
+//     if (performance.navigation.type == 2) {
+//         // alert("You are back");
+//         location.reload(true);
+//     }
+//     $("#subscription").val("");
+//     $("#radio-1").click(function (e) {
+//         $("#disclaimer-du").css("visibility", "hidden");
+//         $("#disclaimer-etisalat").css("visibility", "visible");
+//     });
+//     $("#radio-2").click(function (e) {
+//         $("#disclaimer-etisalat").css("visibility", "hidden");
+//         $("#disclaimer-du").css("visibility", "visible");
+//     });
+//     var selValue = $("input[name=operator]:checked").val();
+//     $("#submitBtn").click(function (e) {
+//         var selValue = $("input[name=operator]:checked").val();
+//         console.log(selValue);
+//         if (selValue === undefined) {
+//             $("#selected").html("<br/> You did not select an operator");
+//             e.preventDefault();
+//         } else {
+//             if (selValue === "ETISALAT_UAE_ARE") {
+//                 var operatorAppear = "Etisalat";
+//             } else if (selValue === "DU_ARE") {
+//                 var operatorAppear = "Du";
+//             }
+//             $("#selected").html("");
+//             $("#selected").html("<br/> You chose : <b>" + operatorAppear + "</b>");
+//             $('#operatorHidden').val(selValue);
+//         }
+//         if ($('#subscription').val === undefined) {
+//             e.preventDefault();
+//             $('#text-check').css('display', 'block !important');
+//         }
+//     });
+// });
